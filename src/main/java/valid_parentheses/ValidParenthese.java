@@ -1,6 +1,6 @@
-package validParentheses;
+package valid_parentheses;
 
-public class Solution {
+public class ValidParenthese {
     public static boolean validParentheses(String parens) {
         int count = 0;
         char[] charArray = new char[parens.length()];
@@ -16,5 +16,6 @@ public class Solution {
         }
         if (count == 0) return true;
         else return false;
+
     }
 }
